@@ -3,50 +3,32 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package samplemine1;
+package designer;
 
-
+import java.net.URL;
+import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
-import javafx.scene.control.Menu;
-import javafx.scene.control.MenuBar;
-import javafx.scene.control.MenuItem;
-import javafx.scene.layout.GridPane;
+import javafx.fxml.Initializable;
+import javafx.scene.control.Label;
+import javafx.scene.control.SplitPane;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
 
+/**
+ *
+ * @author fauzianordlund
+ */
 public class FXMLDocumentController {
-/*
-    @FXML
-    private MenuBar menuBar;
+     @FXML
+    private AnchorPane FX_AnchorPane;
 
     @FXML
-    private MenuItem loadGame;
+    private Pane FX_Pane;
 
     @FXML
-    private GridPane gPnae;
+    private SplitPane FX_SplitPane;
 
-    @FXML
-    private Menu Menu;
 
-    @FXML
-    private MenuItem NewGame;
-
-    @FXML
-    private Button ze_Button;
-
-    @FXML
-    private Pane Pane;
-
-    @FXML
-    private MenuItem closeGame;
-
-    @FXML
-    private MenuItem saveGame;
-
-    @FXML
-    void pressedButton(ActionEvent event) {
-
-    }
-*/
+    
 }
